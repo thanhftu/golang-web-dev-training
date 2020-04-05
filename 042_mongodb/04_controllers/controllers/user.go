@@ -3,11 +3,13 @@ package controllers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/GoesToEleven/golang-web-dev/042_mongodb/04_controllers/models"
-	"github.com/julienschmidt/httprouter"
 	"net/http"
+
+	"github.com/julienschmidt/httprouter"
+	"github.com/thanhftu/golang-web-dev/042_mongodb/04_controllers/models"
 )
 
+// UserController control user model
 type UserController struct{}
 
 func NewUserController() *UserController {

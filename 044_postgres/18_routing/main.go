@@ -3,8 +3,9 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	_ "github.com/lib/pq"
 	"net/http"
+
+	_ "github.com/lib/pq"
 )
 
 var db *sql.DB
